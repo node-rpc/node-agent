@@ -1,9 +1,11 @@
 {
   "name": "node-agent-cli",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "node cli to start node application",
   "main": "index.js",
-  "bin": { "node-agent": "./bin/src/agent/cli.js" },
+  "bin": {
+    "node-agent": "./bin/src/agent/cli.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/node-rpc/node-agent.git"

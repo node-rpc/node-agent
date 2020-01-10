@@ -4,7 +4,7 @@
   "description": "node cli to start node application",
   "main": "index.js",
   "bin": {
-    "node-agent": "./bin/src/index.js"
+    "node-agent": "./src/index.js"
   },
   "repository": {
     "type": "git",

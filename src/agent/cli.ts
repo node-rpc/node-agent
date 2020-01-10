@@ -21,5 +21,7 @@ program
 
 program.parse(process.argv);
 
-// run application
-Start(Object.assign({}, defaultConfig, { script: program.script, workerNumber: program.thread }));
+export function run() {
+    // run application
+    Start(Object.assign({}, defaultConfig, { script: program.script, workerNumber: program.thread }));
+}

@@ -1,10 +1,10 @@
 {
   "name": "node-agent-cli",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "node cli to start node application",
   "main": "index.js",
   "bin": {
-    "node-agent": "./bin/index.js"
+    "node-agent": "./index.js"
   },
   "repository": {
     "type": "git",

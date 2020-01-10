@@ -1,0 +1,38 @@
+{
+  "name": "node-agent-cli",
+  "version": "1.0.0",
+  "description": "node cli to start node application",
+  "main": "index.js",
+  "bin": { "node-agent": "./bin/src/agent/cli.js" },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/node-rpc/node-agent.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/node-rpc/node-agent/issues"
+  },
+  "homepage": "https://github.com/node-rpc/node-agent#readme",
+  "scripts": {
+    "bin": "tsc -p .",
+    "test": "jest",
+    "run-ts": "ts-node",
+    "run-js": "node"
+  },
+  "devDependencies": {
+    "@types/jest": "^24.0.23",
+    "jest": "^24.9.0",
+    "ts-jest": "^24.2.0",
+    "tslint": "^5.20.1",
+    "typescript": "^3.7.2",
+    "typescript-eslint-parser": "^22.0.0"
+  },
+  "dependencies": {
+    "@types/node": "^12.12.14",
+    "@types/signale": "^1.2.1",
+    "commander": "^4.0.1",
+    "node": "^12.13.0",
+    "signale": "^1.4.0"
+  }
+}

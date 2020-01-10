@@ -1,6 +1,6 @@
 import commander from "commander";
 import os from "os";
-import packageJson from "../../package.json";
+import packageJson from "../package.json";
 import Start, { IAgentConfig } from "./agent";
 
 

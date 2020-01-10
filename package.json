@@ -1,6 +1,6 @@
 {
   "name": "node-agent-cli",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "node cli to start node application",
   "main": "index.js",
   "bin": {

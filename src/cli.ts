@@ -16,8 +16,8 @@ const program = new commander.Command();
 program.version(packageJson.version);
 
 program
-    .option("-t, --thread <number>", "thread number to start", numOfCpus)
-    .requiredOption("-s, --script <type>", "application name to start");
+.option("-t, --thread <number>", "thread number to start", numOfCpus)
+.requiredOption("-s, --script <type>", "application name to start");
 
 program.parse(process.argv);
 

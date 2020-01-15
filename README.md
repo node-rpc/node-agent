@@ -17,8 +17,11 @@ npm i node-agent-cli
 ```
 
 ####  parameter
-
+```
 -script: script's location
+```
 
+```
 -t: process number
+```
 
